@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ENFINN TERRIBLE</title>
+  <meta name="description" content="Official website of ENFINN TERRIBLE — music, news and store." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav">
+      <a class="nav__logo" href="#top">ENFINN&nbsp;TERRIBLE</a>
+
+      <button class="nav__toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__menu">
+        <li><a href="#store">Store</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#signup">Sign Up</a></li>
+        <li><a href="#login" class="nav__login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__media" role="img" aria-label="ENFINN TERRIBLE — new release artwork"></div>
+    <div class="hero__overlay">
+      <p class="hero__eyebrow">New Release</p>
+      <h1 class="hero__title">THE NEW ALBUM</h1>
+      <p class="hero__subtitle">Out now — available in every format</p>
+      <a class="btn btn--solid" href="#store">Order Now</a>
+    </div>
+  </section>
+
+  <!-- ============ STORE / FORMATS GRID ============ -->
+  <section class="section" id="store">
+    <header class="section__head">
+      <h2 class="section__title">The New Album</h2>
+      <p class="section__sub">Choose your format</p>
+    </header>
+
+    <div class="grid">
+      <!-- Physical formats -->
+      <article class="card">
+        <div class="card__art" data-label="2LP">2LP</div>
+        <h3 class="card__title">2LP Premium Edition</h3>
+        <p class="card__price">$39.99</p>
+        <a class="btn btn--outline" href="#">Order Now</a>
+      </article>
+
+      <article class="card">
+        <div class="card__art" data-label="2LP">2LP</div>
+        <h3 class="card__title">2LP Numbered Edition</h3>
+        <p class="card__price">$44.99</p>
+        <a class="btn btn--outline" href="#">Order Now</a>
+      </article>
+
+      <article class="card">
+        <div class="card__art" data-label="1LP">1LP</div>
+        <h3 class="card__title">1LP Standard</h3>
+        <p class="card__price">$27.99</p>
+        <a class="btn btn--outline" href="#">Order Now</a>
+      </article>
+
+      <article class="card">
+        <div class="card__art" data-label="1LP">1LP</div>
+        <h3 class="card__title">1LP Picture Disc</h3>
+        <p class="card__price">$32.99</p>
+        <a class="btn btn--outline" href="#">Order Now</a>
+      </article>
+
+      <article class="card">
+        <div class="card__art" data-label="CD">CD</div>
+        <h3 class="card__title">CD Deluxe</h3>
+        <p class="card__price">$18.99</p>
+        <a class="btn btn--outline" href="#">Order Now</a>
+      </article>
+
+      <article class="card">
+        <div class="card__art" data-label="CD">CD</div>
+        <h3 class="card__title">CD Standard</h3>
+        <p class="card__price">$14.99</p>
+        <a class="btn btn--outline" href="#">Order Now</a>
+      </article>
+
+      <article class="card">
+        <div class="card__art" data-label="CASS">Cassette</div>
+        <h3 class="card__title">Cassette</h3>
+        <p class="card__price">$12.99</p>
+        <a class="btn btn--outline" href="#">Order Now</a>
+      </article>
+
+      <article class="card">
+        <div class="card__art" data-label="TEE">Bundle</div>
+        <h3 class="card__title">Tee + Numbered 2LP Bundle</h3>
+        <p class="card__price">$64.99</p>
+        <a class="btn btn--outline" href="#">Order Now</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ MUSIC ============ -->
+  <section class="section section--alt" id="music">
+    <header class="section__head">
+      <h2 class="section__title">Music</h2>
+      <p class="section__sub">Latest release &amp; back catalogue</p>
+    </header>
+
+    <div class="music">
+      <div class="music__art" data-label="ALBUM">ALBUM ART</div>
+      <div class="music__body">
+        <h3 class="music__album">The New Album</h3>
+        <p class="music__meta">2026 · 12 tracks</p>
+        <div class="music__links">
+          <a class="chip" href="#">Spotify</a>
+          <a class="chip" href="#">Apple Music</a>
+          <a class="chip" href="#">YouTube</a>
+          <a class="chip" href="#">Amazon</a>
+        </div>
+        <ol class="tracklist">
+          <li>Track One</li>
+          <li>Track Two</li>
+          <li>Track Three</li>
+          <li>Track Four</li>
+          <li>Track Five</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NEWS ============ -->
+  <section class="section" id="news">
+    <header class="section__head">
+      <h2 class="section__title">News</h2>
+      <p class="section__sub">The latest from ENFINN TERRIBLE</p>
+    </header>
+
+    <div class="news">
+      <article class="news__item">
+        <div class="news__thumb" data-label="NEWS"></div>
+        <div class="news__text">
+          <p class="news__date">August 2026</p>
+          <h3 class="news__title">New album announced</h3>
+          <p class="news__excerpt">Placeholder news copy. Replace with the real story, image and link.</p>
+          <a class="link" href="#">Read more</a>
+        </div>
+      </article>
+
+      <article class="news__item">
+        <div class="news__thumb" data-label="NEWS"></div>
+        <div class="news__text">
+          <p class="news__date">July 2026</p>
+          <h3 class="news__title">Tour dates coming soon</h3>
+          <p class="news__excerpt">Placeholder news copy. Replace with the real story, image and link.</p>
+          <a class="link" href="#">Read more</a>
+        </div>
+      </article>
+
+      <article class="news__item">
+        <div class="news__thumb" data-label="NEWS"></div>
+        <div class="news__text">
+          <p class="news__date">June 2026</p>
+          <h3 class="news__title">New single out now</h3>
+          <p class="news__excerpt">Placeholder news copy. Replace with the real story, image and link.</p>
+          <a class="link" href="#">Read more</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ NEWSLETTER / SIGN UP ============ -->
+  <section class="signup" id="signup">
+    <h2 class="signup__title">Sign up for the newsletter</h2>
+    <p class="signup__sub">Be the first to know about releases, tours and drops.</p>
+    <form class="signup__form" onsubmit="return false;">
+      <input type="email" class="signup__input" placeholder="Your email address" required />
+      <button type="submit" class="btn btn--solid">Sign Up</button>
+    </form>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="login">
+    <div class="footer__social">
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="TikTok">TikTok</a>
+      <a href="#" aria-label="Facebook">Facebook</a>
+      <a href="#" aria-label="X">X</a>
+      <a href="#" aria-label="YouTube">YouTube</a>
+      <a href="#" aria-label="Linktree">Linktree</a>
+    </div>
+    <p class="footer__legal">© 2026 ENFINN TERRIBLE. All rights reserved.</p>
+    <p class="footer__credit">Template site — placeholder content for client review.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
