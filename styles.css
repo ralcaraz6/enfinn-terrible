@@ -112,24 +112,14 @@ h1, h2, h3 {
 .hero__media {
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(circle at 30% 30%, #333 0%, transparent 55%),
-    radial-gradient(circle at 70% 70%, #222 0%, transparent 55%),
-    linear-gradient(135deg, #111 0%, #000 100%);
-  filter: grayscale(1) contrast(1.1);
+  background: #000 url("images/hero.png") center/cover no-repeat;
+  filter: grayscale(1) contrast(1.05);
 }
 .hero__media::after {
-  content: "ENFINN TERRIBLE";
+  content: "";
   position: absolute;
   inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Anton", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 8rem);
-  color: rgba(255,255,255,0.06);
-  letter-spacing: 0.05em;
-  text-align: center;
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.15) 55%, rgba(0,0,0,0.35) 100%);
 }
 .hero__overlay {
   position: relative;
@@ -202,10 +192,10 @@ h1, h2, h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #1a1a1a, #000);
+  background: #000 url("images/album.png") center/cover no-repeat;
   border: 1px solid var(--line);
   font-family: "Anton", sans-serif;
-  color: #555;
+  color: transparent;
 }
 .music__album { font-size: 2rem; margin-bottom: 8px; }
 .music__meta { color: var(--muted); margin-bottom: 20px; }
@@ -232,7 +222,8 @@ h1, h2, h3 {
 .news { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
 .news__thumb {
   aspect-ratio: 16/10;
-  background: linear-gradient(135deg, #1a1a1a, #000);
+  background: #000 url("images/news.png") center/cover no-repeat;
+  filter: grayscale(1);
   border: 1px solid var(--line);
   margin-bottom: 16px;
 }
