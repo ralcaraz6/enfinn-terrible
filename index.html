@@ -51,56 +51,56 @@
     <div class="grid">
       <!-- Physical formats -->
       <article class="card">
-        <div class="card__art" data-label="2LP">2LP</div>
+        <div class="card__art card__art--main"><span class="card__badge">2LP</span></div>
         <h3 class="card__title">2LP Premium Edition</h3>
         <p class="card__price">$39.99</p>
         <a class="btn btn--outline" href="#">Order Now</a>
       </article>
 
       <article class="card">
-        <div class="card__art" data-label="2LP">2LP</div>
+        <div class="card__art card__art--main"><span class="card__badge">2LP</span></div>
         <h3 class="card__title">2LP Numbered Edition</h3>
         <p class="card__price">$44.99</p>
         <a class="btn btn--outline" href="#">Order Now</a>
       </article>
 
       <article class="card">
-        <div class="card__art" data-label="1LP">1LP</div>
+        <div class="card__art card__art--main"><span class="card__badge">1LP</span></div>
         <h3 class="card__title">1LP Standard</h3>
         <p class="card__price">$27.99</p>
         <a class="btn btn--outline" href="#">Order Now</a>
       </article>
 
       <article class="card">
-        <div class="card__art" data-label="1LP">1LP</div>
+        <div class="card__art card__art--swirl"><span class="card__badge">1LP</span></div>
         <h3 class="card__title">1LP Picture Disc</h3>
         <p class="card__price">$32.99</p>
         <a class="btn btn--outline" href="#">Order Now</a>
       </article>
 
       <article class="card">
-        <div class="card__art" data-label="CD">CD</div>
+        <div class="card__art card__art--foil"><span class="card__badge">CD</span></div>
         <h3 class="card__title">CD Deluxe</h3>
         <p class="card__price">$18.99</p>
         <a class="btn btn--outline" href="#">Order Now</a>
       </article>
 
       <article class="card">
-        <div class="card__art" data-label="CD">CD</div>
+        <div class="card__art card__art--main"><span class="card__badge">CD</span></div>
         <h3 class="card__title">CD Standard</h3>
         <p class="card__price">$14.99</p>
         <a class="btn btn--outline" href="#">Order Now</a>
       </article>
 
       <article class="card">
-        <div class="card__art" data-label="CASS">Cassette</div>
+        <div class="card__art card__art--foil"><span class="card__badge">Cassette</span></div>
         <h3 class="card__title">Cassette</h3>
         <p class="card__price">$12.99</p>
         <a class="btn btn--outline" href="#">Order Now</a>
       </article>
 
       <article class="card">
-        <div class="card__art" data-label="TEE">Bundle</div>
+        <div class="card__art card__art--swirl"><span class="card__badge">Bundle</span></div>
         <h3 class="card__title">Tee + Numbered 2LP Bundle</h3>
         <p class="card__price">$64.99</p>
         <a class="btn btn--outline" href="#">Order Now</a>
@@ -146,7 +146,7 @@
 
     <div class="news">
       <article class="news__item">
-        <div class="news__thumb" data-label="NEWS"></div>
+        <div class="news__thumb news__thumb--stage"></div>
         <div class="news__text">
           <p class="news__date">August 2026</p>
           <h3 class="news__title">New album announced</h3>
@@ -156,7 +156,7 @@
       </article>
 
       <article class="news__item">
-        <div class="news__thumb" data-label="NEWS"></div>
+        <div class="news__thumb news__thumb--foil"></div>
         <div class="news__text">
           <p class="news__date">July 2026</p>
           <h3 class="news__title">Tour dates coming soon</h3>
@@ -166,7 +166,7 @@
       </article>
 
       <article class="news__item">
-        <div class="news__thumb" data-label="NEWS"></div>
+        <div class="news__thumb news__thumb--swirl"></div>
         <div class="news__text">
           <p class="news__date">June 2026</p>
           <h3 class="news__title">New single out now</h3>
@@ -179,12 +179,15 @@
 
   <!-- ============ NEWSLETTER / SIGN UP ============ -->
   <section class="signup" id="signup">
-    <h2 class="signup__title">Sign up for the newsletter</h2>
-    <p class="signup__sub">Be the first to know about releases, tours and drops.</p>
-    <form class="signup__form" onsubmit="return false;">
-      <input type="email" class="signup__input" placeholder="Your email address" required />
-      <button type="submit" class="btn btn--solid">Sign Up</button>
-    </form>
+    <div class="signup__bg"></div>
+    <div class="signup__inner">
+      <h2 class="signup__title">Sign up for the newsletter</h2>
+      <p class="signup__sub">Be the first to know about releases, tours and drops.</p>
+      <form class="signup__form" onsubmit="return false;">
+        <input type="email" class="signup__input" placeholder="Your email address" required />
+        <button type="submit" class="btn btn--solid">Sign Up</button>
+      </form>
+    </div>
   </section>
 
   <!-- ============ FOOTER ============ -->
