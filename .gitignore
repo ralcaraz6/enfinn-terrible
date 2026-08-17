@@ -1,0 +1,3 @@
+# Original full-res art (huge). Only the web-optimized images/art/*.jpg are deployed.
+images/art-src/
+.DS_Store
